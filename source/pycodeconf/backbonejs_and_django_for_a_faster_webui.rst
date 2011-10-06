@@ -30,3 +30,14 @@ Examples
 --------
   * Show an example of using jQuery to build UI.
   * Embedded HTML in javascript.
+
+Backbone and Grove
+------------------
+  * The UI looks the same
+  * Backbone gives MVC style, in a single file.
+  * You can roll it yourself, making it easy to get started. 
+  * Not actually MVC, actually Models, Templates, and Views
+  
+Models
+------
+  * Shows `Backbone.model.exted({})`
