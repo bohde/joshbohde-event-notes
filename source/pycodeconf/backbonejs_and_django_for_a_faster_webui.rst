@@ -40,4 +40,10 @@ Backbone and Grove
   
 Models
 ------
-  * Shows `Backbone.model.exted({})`
+  * Shows `Backbone.Model.extend({})` 
+  * http://documentcloud.github.com/backbone/#Model
+  * Shows `Backbone.Collection.extend({})`
+  * http://documentcloud.github.com/backbone/#Collection
+  * Highlight the Backbone Views on the Grove app page. 
+
+  
