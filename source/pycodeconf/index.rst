@@ -7,3 +7,4 @@ PyCodeConf
    
    the_future_is_bright
    embracing_the_gil
+   what_makes_python_awesome
