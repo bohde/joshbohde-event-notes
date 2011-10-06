@@ -120,3 +120,33 @@ Experiment
   * Makes GUI completely usable.
   * Tried with 1.4k threads.
 
+More Thoughts
+-------------
+
+  * Huge boost in performance with few modifications
+  * Not the only way to improve the GIL
+  * Example: Should the GIL release on nonblocking IO? 
+  * Currently releases on every IO
+  * If you are doing nonblocking IO, you aren't blocking.
+
+Wrapping Up
+-----------
+
+  * Python programmers should be interested in improving the GIL
+  * Doesn't have to be huge, incremental.
+  * http://www.dabeaz.com/talks/EmbraceGIL
+  * Code available via version control
+  
+Questions
+---------
+
+  * Did you do an academic paper on this?
+     * No, but I think there is room for it.
+     * The interesting question is if the OS thread library gives enough help to languages with a GIL.
+     * Could it cooperate to tell the thread that it will be context switched.
+     * At Pycon, OS kernel hackers came to talk about this.
+     * Should say "Fixing the GIL is impossible". 
+  * Is priority code production runnable?
+     * No
+     * Threads cannot quit.
+
