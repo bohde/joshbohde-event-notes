@@ -93,3 +93,35 @@ Generators that accept Input
   * Write code that looks procedural, but uses callbacks
   * Monocle (https://github.com/saucelabs/monocle), Twisted inline deferred
   * Fantastic improvement of callback code.
+
+Decorators
+----------
+  * Expressive
+  * Always worked for function
+  * Initial response: Syntactic sugar
+  * Community rose up and demanded it from Guido.
+  * Easy on the eyes
+  * Shows example using itty (https://github.com/toastdriven/itty) using decorators for routing.
+  * Ping into another machine using curl to lookup environment variables in 3 lines.
+  * Web service in 20 lines, made possible by decorators
+  * Thanks Django!
+
+With Statement
+--------------
+  * Clean, elegant
+  * Profoundly important
+  * Sandwich analogy
+  * Subroutines factor out the 'meat' of the code
+  * With statments factor out the 'bread' of the code
+  * Factors out common setup and teardown methods.
+  
+Abstract Base Classes
+---------------------
+  * Uniform definition of what it means to be a sequence, mapping, etc.
+  * Ability to override `isinstance()` and `issubclass()`
+  * Duck-typing says: "If it says it's a duck..."
+  * Mixin capability (DictMixin)
+  * Can provide the base of a class 
+     * shows using a list-based set with `__iter__`, `__contains__`, and something else
+     * Mixin provides the rest
+
