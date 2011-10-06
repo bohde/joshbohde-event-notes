@@ -33,3 +33,32 @@ PyPI
   * Complain about it being down
   * 5 mirrors that are well updated
   
+Managing Dependencies
+---------------------
+  * Use pip
+     * Supports uninstalling
+     * Lots of small improvements
+     * Supports version control 
+     * Don't use this in production
+  * Use virtualenv
+     * Great for sandboxing
+     * Destroy and recreate it often
+     * Pin your dependencies
+
+Pinning
+-------
+  * Only deploy specific versions
+  * `pip freeze > requirements.txt`
+  * It's explicit (see the Zen)
+
+Version Control
+---------------
+  * Having a github/bitbucket source is good for dev...
+  * Not for prod.
+  * Put tarballs on internal servers.
+     
+PyPI is Down
+------------
+  * `pip install --use-mirrors`, problem solved
+
+
