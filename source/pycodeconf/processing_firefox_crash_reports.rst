@@ -14,3 +14,18 @@ Socorro
   * If you see the Firefo crash popup, please submit it.
   
   * Shows Mozilla Crash Stats https://crash-stats.mozilla.com/products/Firefox
+  
+
+Architecture
+------------
+  * Collector 
+     * web.py app behind apache
+     * Puts on disk
+  * Store in HBase
+  * Write to Postgres
+  * Webapp and API
+  * All Python
+
+
+  
+
