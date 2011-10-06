@@ -42,8 +42,22 @@ Models
 ------
   * Shows `Backbone.Model.extend({})` 
   * http://documentcloud.github.com/backbone/#Model
+
+Collections
+-----------
   * Shows `Backbone.Collection.extend({})`
   * http://documentcloud.github.com/backbone/#Collection
-  * Highlight the Backbone Views on the Grove app page. 
 
-  
+Views
+-----
+  * Highlight the Backbone Views on the Grove app page. 
+  * Demonstrates Backbone Event binding
+     * Creates the view from the model data
+     * Bind updating view when the model changes
+
+Templates
+---------
+  * Uses handlebars.js (http://www.handlebarsjs.com/)
+  * Looks like Django
+  * Specify templates to a view.
+  * use include_raw templatetag http://djangosnippets.org/snippets/1684/
