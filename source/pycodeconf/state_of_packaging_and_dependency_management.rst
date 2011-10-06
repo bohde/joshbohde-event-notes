@@ -58,7 +58,7 @@ Version Control
   * Put tarballs on internal servers.
      
 PyPI is Down
-------------
+------------oG
   * `pip install --use-mirrors`, problem solved
 
 
@@ -73,3 +73,8 @@ Recap
   * Explicit versions
   * Use mirrors
   * Need to use the tools more effectively
+
+Questions
+---------
+  * A frozen requirement may have unfrozen dependencies
+  * May need to tweak requirements.txt 
