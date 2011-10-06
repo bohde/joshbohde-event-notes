@@ -61,3 +61,16 @@ Templates
   * Looks like Django
   * Specify templates to a view.
   * use include_raw templatetag http://djangosnippets.org/snippets/1684/
+
+Additional Goodies
+==================
+
+Sync
+----
+  * Used to synchronize data on Django server
+  * Shows `request.raw_post_data` to get JSON objects.
+  * https://gist.github.com/1265346
+
+Events
+------
+  * Can update multiple views for a single model.
