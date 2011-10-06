@@ -83,6 +83,18 @@ Implementation
 Scaling
 -------
   * Different
-    * Usually scale to millions of users.
+     * Usually scale to millions of users.
+     * Crash Center has terrabytes of data, ~100 users.
+
+  * 2300 crashes per minute
+     * Going down
+  * 2.5 million per day
+  * Median size 150k
+  * Max 20MB
+  * Reject bigger, since probably not useful since mem dump
+  * ~110TB in HDFS (3x replicatoin)
+
+
+
   
 
