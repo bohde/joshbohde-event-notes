@@ -56,6 +56,68 @@ Dark Future
   * Python packages vanish
   * Build scripts fail
   * Replace from caches/backups
+
+Repercussions
+-------------
   * Lose domain knowledge
   * Python can't move forward.
+  * Social Issues
+  * 3rd Party Community is just as critical as Python core
 
+Not the Future
+--------------
+  * It's today
+  * Legacy code with legacy packages
+  * Build scripts fail
+  * Example of NASA issue
+     * caused project to go to ColdFusion
+  * We have lost works of antiquity
+     * Blame is moot
+  * Stuff we make today is legacy in 5 years
+  
+Trust Issues
+------------
+  * This causes a lack of trust in Python
+  * Without trust, we can't collaborate as well
+     * The disease that will trigger zombie apocolypse
+
+Solutions
+----------
+  * Money!
+     * Sponsorships
+     * Problems getting money
+     * Applications
+     * Focus on sprints
+     * Code quality issue from sprints
+     * Ongoing maintenance
+
+Future is still dark
+--------------------  
+  * Community Managers
+  * Ticket triage, etc. 
+  * Needs core/senior developers
+  * They are already busy
+     * Examples pay people to do this
+     * Volunteers may have life get in the way
+  * Determining authority
+
+PSF Paid Commmunity Manager
+---------------------------
+  * Proposed solution
+  * Paid via the PSF
+
+Repercussions
+-------------
+  * Fixes some problems
+  * Mitigate social issues
+  * Can still lose domain knowledge
+
+Precedents
+----------
+  * Ubuntu
+  * Fedory
+  * Twilio
+  * Github
+  
+
+     
