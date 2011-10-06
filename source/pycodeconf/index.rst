@@ -9,3 +9,4 @@ PyCodeConf
    embracing_the_gil
    what_makes_python_awesome
    backbonejs_and_django_for_a_faster_webui
+   pypy_is_your_past_present_and_future
