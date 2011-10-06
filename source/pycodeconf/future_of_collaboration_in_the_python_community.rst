@@ -118,6 +118,46 @@ Precedents
   * Fedory
   * Twilio
   * Github
-  
 
+Wants
+-----
+  * More reasons to trust  
+  * More reasons to contribute
+  * Keep projects operating
+
+Call to Action
+--------------
+  * This is a proposal
+  * Wants to see PSF project incubation
+  * PSF provides seed funding for OS projects
+      * Should return on investment
+      * Preferably to Python community
+      * Needs a viable business model
+      * PSF is an investor
+  * Choose from particapants in Django Dash & coding contests
+
+Return
+------
+  * Gives OS code
+  * Gives money back to the PSF
+
+What this isn't
+---------------
+  * Covering < $100 for hosting
+  * Things without a self-supporting business model
+  
+Examples Projects
+-----------------
+  * djangolint.com
+     * Little setup requires
+     * Uses github
+     * Wants for all Python
+     * Wants syndication        
+     * How does it make money? 
+        * Pay to analyze privately? 
+     * Easy linting increases trust
+
+  * readthedocs.org
+     * Places in the 2010 Django Dash
+     * Documentation increases trust
      
