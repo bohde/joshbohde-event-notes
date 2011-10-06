@@ -160,4 +160,50 @@ Examples Projects
   * readthedocs.org
      * Places in the 2010 Django Dash
      * Documentation increases trust
-     
+     * Business model?
+        * Pay for private doc hosting would be good.
+        * Clients don't want to host docs.
+  * depot.io
+     * Freeze your python dependencies
+     * Doesn't replace PyPI
+     * Provides additional security
+     * Possible Advantages
+        * Archive legacy packages
+        * Leave PyPI as the canonical source
+        * Adds dependablility, trust
+  * PyPI
+     * Pay for a PyPI Appliance? 
+     * Github makes "giant" profits on Enterprise Appliance
+  * djangopackages.com
+     * Just launched pyramid version
+     * Plone?
+     * Python? 
+     * http://bit.ly/django-reg
+     * Compare and contrast packages
+     * Helped determine a package to use
+     * Gives metrics 
+     * Metrics give trust
+     * As opencomparison, support more things
+        * Languages
+        * Syndication
+        * OAuth
+        * What's the business model? 
+        
+Results
+-------
+  * Don't have packages vanish.
+  * Let Python move forward
+  * Have new social issues.
+
+Paid Community Manager
+-----------------------
+  * Maybe the PSF shouldn't be involved
+  * Outside factors? 
+
+Project Incubations
+-------------------
+  * Already exists, just not with PSF
+  * How much code comes out of these? 
+  * Energy of startup giving back?
+
+
