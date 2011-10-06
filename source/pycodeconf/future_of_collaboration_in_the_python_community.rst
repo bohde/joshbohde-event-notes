@@ -45,3 +45,17 @@ Repeating History
   * Django-lint
   * Django-Piston
      * social factors caused no release in years
+  * python.org
+  * opencomparison.org
+     * Host djangopackages.com  
+     * How does this get maintained? 
+
+Dark Future
+-----------
+  * Critical Packages Breakdown
+  * Python packages vanish
+  * Build scripts fail
+  * Replace from caches/backups
+  * Lose domain knowledge
+  * Python can't move forward.
+
