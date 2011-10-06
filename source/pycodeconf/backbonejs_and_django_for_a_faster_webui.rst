@@ -74,3 +74,14 @@ Sync
 Events
 ------
   * Can update multiple views for a single model.
+  * `App.trigger('messageAdded', ...)`
+
+Router
+------
+  * Will trigger Events based upon the hash
+
+
+Questions
+---------
+  * Do you feel bad that your Django app is now Javascript?
+     * No, this is how apps are going.
