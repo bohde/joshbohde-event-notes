@@ -79,3 +79,19 @@ GIL
   * Think STM would be slower for single core
   * STM for multicore workloads
   * GIL for single core.
+
+
+What People Are Doing with Pypy
+-------------------------------
+  * Researchers getting results over lunch, instead of over night. 
+  * Financial company for market analysis
+  * Engineers at CERN
+
+What Pypy Needs from the Community
+-----------------------------------
+  * Encourages use of pypy if you are CPU bound
+  * Requests for slow code, and they'll use it in benchmarks
+  * Want to make Python the right tool for the job in more places
+  * Work on the ecosystem and tools
+    
+
