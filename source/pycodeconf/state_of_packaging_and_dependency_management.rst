@@ -62,3 +62,14 @@ PyPI is Down
   * `pip install --use-mirrors`, problem solved
 
 
+Whats Missing
+-------------
+  * Not as good as Bundler from Ruby community  
+  * Pip upgrade needs to be better
+
+Recap
+-----
+  * Use PyPI
+  * Explicit versions
+  * Use mirrors
+  * Need to use the tools more effectively
