@@ -94,7 +94,76 @@ Scaling
   * Reject bigger, since probably not useful since mem dump
   * ~110TB in HDFS (3x replicatoin)
 
+What Can We Do?
+---------------
+  * Compare beta null signature crashes.
+  * Analyze Flash versions crashes
+  * Detect duplicate crashes
+  * Detect explosive crashes
+  * Find "frankeninstalls"
+     * Some Windows updaters don't work properly
+     * Keep duplicate but out of version dlls
 
+Implementation Scale
+--------------------
+  * >115 Physical Boxes
+     * About to rollout Elastic Search
+  * 8 Devs, sysadmins, qa, hadoop ops, analysts
+     * Hiring
 
+Managing Complexity
+-------------------
+  * Fork
+     * Hard to install
+     * Use version control VMs
+     * Found to help with complex dev environments
+  * Pull requests with bugfix features
+  * Jenkins polls master on github
+     * Runs tests
+     * Build package
+     * Push out to dev environment
+     * builds release branch
+     * manual push staging
+     * *missed rest of this*
+
+Continous Deployment
+----------------------
+   * Critical
+   * Build machinery for Continuous Deploy, even if you don't
+   * Can deploy at 10 a.m.
+   * Everyone relaxed
+   * Deployment is not a big deal
+
+Config Management
+------------------
+  * Automate configs
+     * Managed through Puppet
+     
+Virtualization
+--------------
+  * Don't want to bulid HBase
+  * Use Vagrant (http://vagrantup.com/)
+  * Jenkins builds Vagrant VMs
+  * Puppet configures VMs. 
+  * Tricky to get data
+  * This + Github increased community activity
+
+Upcoming
+--------
+  * ElasticSearch
+     * Lucene, distributed flexible search engine
+     * Don't know how to tune
+  * Analytics
+     * Detect explosive crashes
+     * Detect malware
+  * Better queueing
+     * Sagrada queue
+     * Mozilla Services - Ben Bangert (https://github.com/bbangert/moz_mq ?)
+
+Open Source
+-----------
+  * Almost everything is open
+
+  
   
 
