@@ -65,9 +65,31 @@ Iterator protocol
    * `sorted(set(open(filename)))`
    * Like legos: fit together perfectly
    * Shows an analogy between that and Unix pipes.
+   * Not enough, GOF pattern
 
 List Comprehension
 ------------------
   * More flexibile than functional style
 
-       
+Generators
+----------
+  * Easiest way to write an iterator
+  * Adds one keyword (yield)
+  * Makes tricky iterators easy
+
+Generator Expressions
+---------------------
+  * Produce values just-in-time
+  * `sum(x**3 for x in xrange(1000000))`
+  * In Pypy, roughly C speed
+  * setcomps and dictcomps
+
+Generators that accept Input
+----------------------------
+  * generators support send(), throw(), and close()
+  * Unique to Python
+  * Can make Twisted's inline deferreds using this
+  * A state machine with callbacks. 
+  * Write code that looks procedural, but uses callbacks
+  * Monocle (https://github.com/saucelabs/monocle), Twisted inline deferred
+  * Fantastic improvement of callback code.
