@@ -20,3 +20,4 @@ PyCodeConf
    cherry_picking
    breakdancer
    many_hats
+   array_oriented
