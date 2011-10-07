@@ -32,4 +32,27 @@ Pyparsing
   * Verilog parser (~16k lines)
   * Cpython (500 lines/sec)
   * Pypy (1131 lines/sec)
+
+Pandas
+------
+  * @wesmckinn
+  * Agile Tooling for Small Data
+  * First need to small the small data problem before big data
+  * DBs, Flat files, time series, mean you may want it
+  * indexed data structures for relation data
+  * Fast manipulation tool
+  * Data alignment
+  * Join merge
+  * group by
+  * Reshaping/pivot
+  * In memory and fast
+  * Meant for quant finance application backbone
+  * ~26k loc
+  * In productions since 2008
+  * Data Analysis is dominated by thing like SAS
+  * Lots of people want to expand in these areas
+  * Operations to naturally select portions of data
+  * Can plot data  
+
+
   
