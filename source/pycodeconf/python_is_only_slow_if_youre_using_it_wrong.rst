@@ -38,4 +38,24 @@ Ways to Make it Fast
   * CPython has a really good C API
      * Java doesn't, it's super painful 
   * Python + C is winning so far
-    
+     * C is for tight inner loops
+     * Python for the higher level
+
+Threads
+-------
+  * Computation threads are useless, because of GIL
+     * Sometimes worse than single threaded
+  * Okay for I/O
+     * GIL will release for I/O
+  * fork() works great for both 
+     * Recommend to use it all the time
+     * No GIL
+     * Trick is getting info from process to process
+     * Bup uses this
+     * No weird locking interactions
+  * C modules can use threads
+     * Can release GIL when you get objects
+     * Run threads
+     * Get GIL when computations are done
+     * Can get high performance
+  * CPU Bound threads in Python is doing it wrong
