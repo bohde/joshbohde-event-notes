@@ -91,5 +91,58 @@ Proposed Solution
   * Pipe, read stdout, etc.
   * Get it done quickly and effectively
 
+File and System Ops
+-------------------
+  * Surveyed dev ops
+  * Shutil, sys, etc. are confusing
+  * Limits adoption by dev ops guys
+
+Install Python
+--------------
+  * Surveying room on installation methods on OSX
+  * Many chosen
+  * "What happened to one obvious way to do it?"
+
+XML
+-------------
+  * `etree` is terrible
+  * `lxml` is awesome
+  * We need to adopt a better standard
+ 
+Packaging and Dependencies
+--------------------------
+  * `pip` or `easy_install`
+  * `setuptools`?
+  * `Distribute`
+     * How is it better than setuptools?
+  * We need simple instructions on how to install, and release packages
+
+Dates
+-----
+  * Some good 3rd parties
+  * Stdlib not good enough
+
+Unicode
+-------
+  * It's a simple problem
+     * Room erupts in "No it's not!"
+  * Should be easy
+
+Testing
+-------
+  * Unittests
+  * Didn't get the downside
+
+Installing Dependencies
+-----------------------
+  * Asked room about difficulties
+  * Almost everyone had difficulties
+
+Hitchiker's Guide to Python
+---------------------------
+  * http://python-guide.org
+  * Teach the best practices
+  * "There should be one-- and preferably only one --obvious way to do it"
+  * Brief overview
 
 
