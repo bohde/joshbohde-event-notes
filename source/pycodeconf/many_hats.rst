@@ -79,8 +79,12 @@ Take Shortcuts
   * Django ecosystem is awesome
   * Doesn't know databases at all, South makes it easy
   * Dotcloud makes servers easy 
+  * Themeforest for design
+  * Design for Non Designers
+  * You can always iterate later
+  * Launchrock.com
 
-   
+
   
 
   
