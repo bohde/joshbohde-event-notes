@@ -68,4 +68,13 @@ Zen of Numpy
 ------------
   * http://technicaldiscovery.blogspot.com/2010/11/zen-of-numpy.html
 
-
+Pypy
+-----
+  * Let's not chase C, let's chase Fortran 90.
+  * Example where Fortran 90 is 7 times faster than Numpy and Pypy
+  
+Question
+---------
+  * Coolest thing seen with NumPy?
+     * Implant surgery planning tool
+     * CT Scans, 3d vis
