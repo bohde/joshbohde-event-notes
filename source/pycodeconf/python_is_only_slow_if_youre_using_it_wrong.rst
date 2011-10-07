@@ -72,7 +72,25 @@ Garbage Collection
      * Terrible, terrible thing with threads
      * Need to lock on refcounts
      * GIL solves this problem
-  
+  * Shows graphs of programs memory and time
+     * Allocates 10k of space a lot
+     * Refcounting sematics allow Python lower mem usage than Java
+  * Testing Java
+     * 3 different tests
+     * Shows one where it allocates as much memory as possible
+  * Sometimes Python is Garbage Collected
+     * Mutual referencing objects that have ref count of one
+     * Backup GC finds this, and collects them
+     * Shows example on how to do this
+     * Pretty complicated in order to get across the GC
+     * Then it relies on sucking up tons of memory, and getting it later
+     * Advice: Stay away from GC
+        * Break circular references
+        * Most common, trees with reference to parents
+           * Full tree need to be GC'ed
+        * Better: use the `weakref` module
+     
+     
 
 
 
