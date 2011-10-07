@@ -100,4 +100,50 @@ ZeroMQ
   * Different topologies
      * push/pull
      * pub/sub
+  * Easier than HTTP
+  * No caching
+  * Non gracefully dies
+  * No broker infrastructure
 
+Message Queues
+--------------
+  * Similar to ZeroMQ
+  * In reality, a different problem     
+  * Can run tasks outside request/response
+  * Different codes, languages to run code
+  * Accessor Library: Celery
+  * Don't assume code to be nonblocking
+  * Greatly simplifies testing
+  * Redis queues are a good start
+     * ~20 lines of code to build your own
+  
+Data Store
+----------
+  * Using the same db for different apps
+  * Works well as long as everyone plays nice
+
+Redis
+-----
+  * Remote datastructures
+  * Shows bash example of a queue worker
+
+Javascript
+----------
+  * It's awesome
+  * Geeks hate it
+  * ugly, can be abused
+  * Use Coffeescript
+  * Decouples frontend by using different services
+  * Examples: xbox.com, Battlefield 3 game lobby
+  * Can efficiently transform the DOM
+  * Backbone.js
+  * Testing sucks for others
+
+Processes
+---------
+  * Daemons can be annoying to run
+  * Processes can have different privileges
+  * Tune individual processes
+  * Upgrade parts to python3
+  * ZeroMQ/HTTP to operate together
+  
