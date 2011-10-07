@@ -26,4 +26,31 @@ Intro
   * Show TDD using Ruby
      * Crazy Vim action
 
+Testing
+-------
+  * Claim: RSpec is confusing
+  * Never had this problem
+  * Python based on SUnit from 1994
+  * Thought Django views are not as advanced as Rails
+  * Ruby is the serious one?
+  * "A Python programmer rejects a new idea without considering its value. A Ruby programmer accepts a new idea without considering its value."
+  
+Choose Ruby or Python
+---------------------
+  * Ruby community more willing to pay
+  * Move to that full time
+  * Shows examples of ugliness in Ruby
+     * @foo ||= bar
+     * realization, it's how you do memoization
+  * Maybe Ruby is well designed?
+  * Generators, Comprehensions, Decorators, and Context Managers are easy to implement with blocks
+  * Which language is complicated?
+
+Emprically
+----------
+  * Realized back to ignorance
+  * Judged languages before he should
+  * Ruby's community is serious about testing
+  * Rare opportunity to work with both
+
 
