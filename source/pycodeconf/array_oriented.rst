@@ -17,7 +17,7 @@ Why Python?
   * Wants to make Python faster than C, as in a GPU or FPGA
 
 Conway's Game of Life
-------------
+---------------------
   * Interesting excercies
   * Shows an example of it
   * Array oriented
@@ -29,3 +29,15 @@ Conway's Game of Life
   * Game of Life is one line in APL
   * Array-oriented programming deals with arrays as a block
   * Shows numpy example
+
+Numpy/Scipy History
+-------------------
+  * Numeric around ~1994
+  * More features for array oriented computing
+     * a[0,1], a[::2]
+     * Ellipsis object
+     * Complex numbers
+  * Syntax matters
+  * Aside: We need more numpy/scipy and core collaboration
+  * Derivative Calculations in 1997
+  * Came from MATLAB, but it wasn't memory efficient enough
