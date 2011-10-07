@@ -22,6 +22,10 @@ Breakdancer Overview
   * Driver to run things
   * Shows how `add` command can be decomposed into conditions
   * All Conditions, Actions, and Effects are composable
-  * Driver holds the boiler plate
-  
+  * Driver holds the boilerplate
+  * Python makes boilerplate minimal
+  * itertools makes combinations simple.
+  * Generate test case combinations automatically
+  * Do preconditions, postconditions. 
+
 
