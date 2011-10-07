@@ -71,5 +71,20 @@ DSLs
   * Everyone needs it
   * Let's Python assimilate into existing systems
 
+stackful
+--------
+  * @erikrose
+  * This is a hack
+  * Wish things weren't global
+  * Dynamic variables like in Perl
+  * Perl has `local` variables which leaks onto things it calls
+  * `stackful` implemented as with statement
+  * Thread safe
+  * Implementation is funny
+  * No hook in Python for reference
+  * Just override every single magic method in Python
+  * Should be able to be used
+
+
 
   
