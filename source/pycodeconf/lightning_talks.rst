@@ -67,5 +67,9 @@ DSLs
   * .pydsl file
   * uses pyparsing under the hood to transform the dsl
   * Aimed at scientists
+  * People want it: weave, numexpr
+  * Everyone needs it
+  * Let's Python assimilate into existing systems
+
 
   
