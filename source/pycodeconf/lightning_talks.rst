@@ -13,3 +13,13 @@ Vagrant
   * Vagrant command line, to manage life cycle
   * Designers can use it too
   * http://vagrantup.com
+
+Testing CSS
+-----------
+  * Needle
+  * Takes screen shots 
+  * Checks them
+  * Looks like normal unit tests
+  * uses css selectors
+  * Extension to nose, with selenium
+  * https://github.com/bfirsh/needle
