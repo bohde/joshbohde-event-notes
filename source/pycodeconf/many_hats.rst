@@ -52,6 +52,21 @@ Launch as Fast as Possible
   * It helps morale
   * Allows you to iterate
   * "Good enough"
+  * You can add features later
+  * Work on the hard parts first
+  * For her, programming part was hard
+  * It was okay to launch with bad code.
+  * Violates DRY.
+  * Got picked up by Swiss Miss with MVP
+
+Monetization  
+------------
+  * Have a plan.
+
+  
+  
+
+
 
   
 
