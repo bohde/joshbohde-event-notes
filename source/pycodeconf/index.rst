@@ -14,3 +14,4 @@ PyCodeConf
    future_of_collaboration_in_the_python_community
    state_of_packaging_and_dependency_management
    api_design_and_pragmatic_python
+   python_is_only_slow_if_youre_using_it_wrong
