@@ -44,4 +44,28 @@ Numpy/Scipy History
   * Iterative update loop made Python nice
   * 1999 Scipy emerges
   * Python was better language than MATLAB, but lacked scientific libraries
-  
+  * Community Effort
+     * Mostly from academics
+  * Numpy emerged from Numeric in 2005
+
+Numpy
+-----
+  * Data types
+     * Collections of objects
+     * Arrays
+  * Statistics functions
+  * Arbitrary Arrays
+     * Column oriented calculations
+
+Scipy
+-----
+  * Stats
+  * Data fitting
+  * Interpolation
+  * Brownian Motion
+
+Zen of Numpy
+------------
+  * http://technicaldiscovery.blogspot.com/2010/11/zen-of-numpy.html
+
+
