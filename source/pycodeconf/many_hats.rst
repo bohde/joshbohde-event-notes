@@ -62,6 +62,26 @@ Launch as Fast as Possible
 Monetization  
 ------------
   * Have a plan.
+  * Don't think about it later or rely on funding
+
+Don't Be Alone
+--------------
+  * Surround yourself in a community
+  * Find people who are smarter than you to help you out
+  * No NDAs
+  * Inhibits advice
+  * People stealing your ideas is a good thing
+  * Use Twitter/HN to talk
+  * Attend Hacker Events, SuperHappyDevHouse, PyLadies
+  
+Take Shortcuts
+--------------
+  * Django ecosystem is awesome
+  * Doesn't know databases at all, South makes it easy
+  * Dotcloud makes servers easy 
+
+   
+  
 
   
   
