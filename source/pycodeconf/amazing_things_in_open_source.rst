@@ -61,4 +61,64 @@ Ecosystem Patterns
   * Reuse encourages innovations as 3rd party packages
   * Core is conservative
   * Best 3rd party apps get added to core
-  
+  * Grow fastest when there is a pattern for extensions
+     * jQuery
+     * CPAN
+  * Pyramid
+     * Smaller core
+     * Core functionality as add-ons
+     * Endorsed add-ons
+     * Potential for rapid growth
+     * Can deprecate, and allow add-ons to evolve
+     * Don't need to wait on core
+  * Pyramid's Ecosystem developed over time
+     * Came from Pylons, Repoze, Turbogears
+
+How to Grow an Ecosystem
+-------------------------
+  * Write "Best Practices" on how to write 3rd party packages
+     * There is a big gap in this
+  * Well-defined specs
+     * Allow others to write upon a base
+  * Sample code
+  * Active community
+  * Mailing list/ IRC
+  * Docs
+  * 3rd-Party packages catalog
+
+Too Many Options?
+-----------------
+  * "There should be one-- and preferably only one --obvious way to do it."
+  * There can be many web frameworks
+  * But there is often too much clutter
+  * Document the differences
+  * Deprecate bad packages
+     * Hard to do in some cases
+     * Recommend replacements
+
+Fragmentation
+-------------
+  * Not all web
+  * Science, games, etc.
+  * Can't have too many interest groups
+     * Diversity of ideas
+
+3rd Party Packages
+------------------
+  * Best: Do one thing well
+  * Usability
+     * Good docs
+     * Easy to install
+  * Reliability
+     * Tests
+     * Help
+  * Antipatterns are viral
+  * Snippets is the biggest anti-pattern
+     * Copy and paste code
+  * Don't over-engineer though
+  * Don't make the "kitchen-sink" package
+     * Utility functions
+     * Unrelated problems
+     * More visible in HTML/CSS world
+     
+     
