@@ -41,3 +41,7 @@ Numpy/Scipy History
   * Aside: We need more numpy/scipy and core collaboration
   * Derivative Calculations in 1997
   * Came from MATLAB, but it wasn't memory efficient enough
+  * Iterative update loop made Python nice
+  * 1999 Scipy emerges
+  * Python was better language than MATLAB, but lacked scientific libraries
+  
