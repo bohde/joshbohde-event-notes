@@ -52,7 +52,8 @@ Pandas
   * Data Analysis is dominated by thing like SAS
   * Lots of people want to expand in these areas
   * Operations to naturally select portions of data
-  * Can plot data  
+  * Can plot data
+  * Would love collaborators  
 
 
   
