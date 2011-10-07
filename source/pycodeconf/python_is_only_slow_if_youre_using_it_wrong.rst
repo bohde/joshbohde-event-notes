@@ -59,3 +59,21 @@ Threads
      * Get GIL when computations are done
      * Can get high performance
   * CPU Bound threads in Python is doing it wrong
+  * Question from audience: Scipy has Weave, which will allow you to inline C code.
+    * Dynamic compilation
+  * There are workarounds for the GIL
+
+Garbage Collection
+------------------
+  * Python is both refcounting and gc
+  * Refcounting
+     * Whenever you use a variable, increase reference count
+     * Whenever you stop, decrease the reference count
+     * Terrible, terrible thing with threads
+     * Need to lock on refcounts
+     * GIL solves this problem
+  
+
+
+
+
