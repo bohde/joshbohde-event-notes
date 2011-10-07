@@ -16,3 +16,16 @@ Why Python?
   * Shows numpy example, which is fast, but wraps hardware integer
   * Wants to make Python faster than C, as in a GPU or FPGA
 
+Conway's Game of Life
+------------
+  * Interesting excercies
+  * Shows an example of it
+  * Array oriented
+  * APL 
+     * Grandfather of most array oriented languages
+     * J,K,Matlab are descendents
+     * Numpy is a descendent
+     * Unicode glyphs
+  * Game of Life is one line in APL
+  * Array-oriented programming deals with arrays as a block
+  * Shows numpy example
