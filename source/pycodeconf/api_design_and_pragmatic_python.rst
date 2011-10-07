@@ -144,5 +144,18 @@ Hitchiker's Guide to Python
   * Teach the best practices
   * "There should be one-- and preferably only one --obvious way to do it"
   * Brief overview
+     * Idioms
+     * Freezing Code
+     * Installing code
+  * Up for debate, collaboration
+  * Aimed to be a reference guide, and to lower the barrier of entry
+
+Manifesto
+---------
+  * Simplify APIs
+  * Document Best Practices
+
+
+
 
 
