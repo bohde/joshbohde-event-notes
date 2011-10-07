@@ -18,3 +18,4 @@ PyCodeConf
    amazing_things_in_open_source
    the_prejudgement
    cherry_picking
+   breakdancer
