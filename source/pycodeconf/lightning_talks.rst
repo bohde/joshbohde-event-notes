@@ -53,7 +53,19 @@ Pandas
   * Lots of people want to expand in these areas
   * Operations to naturally select portions of data
   * Can plot data
-  * Would love collaborators  
+  * Would love collaborators
 
+DSLs
+----
+  * Peter Wang (@pwang)
+  * Crazy crazy ideas
+  * Would like Python to ignore some syntax where we can do whatever the hell we want
+  * It might be awesome
+  * Calling it extern
+  * Just syntactic sugar
+  * Hacking import hooks to make it work
+  * .pydsl file
+  * uses pyparsing under the hood to transform the dsl
+  * Aimed at scientists
 
   
