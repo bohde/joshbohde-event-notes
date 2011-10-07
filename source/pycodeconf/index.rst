@@ -16,3 +16,4 @@ PyCodeConf
    api_design_and_pragmatic_python
    python_is_only_slow_if_youre_using_it_wrong
    amazing_things_in_open_source
+   the_prejudgement
