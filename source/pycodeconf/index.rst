@@ -19,3 +19,4 @@ PyCodeConf
    the_prejudgement
    cherry_picking
    breakdancer
+   many_hats
