@@ -84,14 +84,43 @@ Garbage Collection
      * Shows example on how to do this
      * Pretty complicated in order to get across the GC
      * Then it relies on sucking up tons of memory, and getting it later
-     * Advice: Stay away from GC
-        * Break circular references
-        * Most common, trees with reference to parents
-           * Full tree need to be GC'ed
-        * Better: use the `weakref` module
-     
-     
 
+Advice: Stay away from GC
+-------------------------
+  * Break circular references
+  * Most common, trees with reference to parents
+     * Full tree need to be GC'ed
+  * Better: use the `weakref` module
+
+Deterministic Destructors
+-------------------------
+  * Win32 example of two writers to a file
+  * Win32 doesn't allow two writers
+  * CPython allows it because it closes the writer because of refcounting
+  * This causes deterministic behavior, unlike 'real' gc
+     * In Python you don't need to manage many resources
+     * Files, database handles, etc.
+  * Some people are trying to take this away
+     * Pypy? 
+     * with statement isn't a desirable alternative
+
+HelloMark
+---------
+  * Fork and exec "Hello World" 20x
+  * Demonstrates startup times
+  * Jython takes 15 seconds, slower than C+valgrind
+  * Shows what you want to write command line tools in
+  * pyc + CPython files are awesome for this
+     * Django and Tornado can reload really quickly
+  * Pypy loses in this regard
+
+Summary
+-------
+  * Love refcounting
+  * Don't use tight inner loops in Python
+  * Don't need the JIT
+  * Work on startup time
+  * benchmarks: https://github.com/apenwarr/avebench
 
 
 
