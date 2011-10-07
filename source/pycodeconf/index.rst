@@ -21,3 +21,4 @@ PyCodeConf
    breakdancer
    many_hats
    array_oriented
+   lightning_talks
