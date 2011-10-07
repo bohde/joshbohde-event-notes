@@ -120,5 +120,24 @@ Fragmentation
      * Utility functions
      * Unrelated problems
      * More visible in HTML/CSS world
+  * Do Be Pythoic
+     * Elegance
+     * Ease of use
+     * Explicitness
+     * Simplicity is why we use Python
+
+Mentorship
+----------
+  * Provide positive encouragement
+  * Put yourself out there
+
+Diversity of Ideas
+------------------
+  * Differ from country to country
+  * Other types of diversity
+  * PyLadies vs. SoCal Python Interest Group
+
+
+
      
      
