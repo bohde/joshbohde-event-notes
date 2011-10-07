@@ -23,3 +23,13 @@ Testing CSS
   * uses css selectors
   * Extension to nose, with selenium
   * https://github.com/bfirsh/needle
+
+Pyparsing
+---------
+  * Time trial using Pypy
+  * Search for integers in a string of random alphas and numbers
+  * Pypy ~10x faster
+  * Verilog parser (~16k lines)
+  * Cpython (500 lines/sec)
+  * Pypy (1131 lines/sec)
+  
