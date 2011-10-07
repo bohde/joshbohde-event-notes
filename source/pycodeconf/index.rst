@@ -13,3 +13,4 @@ PyCodeConf
    processing_firefox_crash_reports
    future_of_collaboration_in_the_python_community
    state_of_packaging_and_dependency_management
+   api_design_and_pragmatic_python
