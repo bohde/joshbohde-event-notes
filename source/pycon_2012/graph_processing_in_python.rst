@@ -20,3 +20,10 @@ Python-Dev
     * Intuitively, the more central, tend to connect others
     * Dict to map person to how central they are
     * There's a fairly tight knit community, with smallers around the edge
+    * Antoine Pitrou was the most likely to respond
+
+  * Topics
+  * Nodes are people and topics
+  * Edges are "commented on"
+  * Filter out too-common topics
+    
