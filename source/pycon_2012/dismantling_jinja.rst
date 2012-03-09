@@ -81,5 +81,13 @@ jsonjinja
   * Semantics of jinja, in javascript
   * https://github.com/mitsuhiko/jsonjinja
 
-
+Q&A
+---
+  * If you had the chance to redo would you use ast? 
+    * Yes, there are utility libraries that help this
+  * ctypes for line numbers?
+    * put special line number variables, monkey patch traceback
+    * works in everything tested, including pypy
+    * Some problems on some architectures.
+    
 
