@@ -49,4 +49,13 @@ Classes
   * Probably should be a class, since functions looke like methods
     * first param is data
 
+Game of Life
+------------
+  * Cell and Board classes
+  * Board has two methods
+  * Refactor to dictionary and function
+  * Well, cell can be refactored to the key of the dict
+  * Two functions and a dict
+  
+
 
