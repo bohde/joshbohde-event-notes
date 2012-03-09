@@ -11,3 +11,5 @@ PyCon 2012
    fast_test_slow_test
    stop_writing_classes
    dismantling_jinja
+   putting_python_in_postgresql
+
