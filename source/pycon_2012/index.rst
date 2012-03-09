@@ -10,3 +10,4 @@ PyCon 2012
    graph_processing_in_python
    fast_test_slow_test
    stop_writing_classes
+   dismantling_jinja
