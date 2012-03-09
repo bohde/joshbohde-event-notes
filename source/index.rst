@@ -12,6 +12,7 @@ Contents:
    :maxdepth: 2
 
    pycodeconf/index
+   pycon_2012/index
 
 Indices and tables
 ==================
