@@ -26,4 +26,9 @@ Numba
 I has a money
 -------------
   * Chad Whittaker
-  * 
+  * Mint stores passwords in cleartext. 
+  * ihasamoney.com
+  * Personal finance for geeks
+  * j/k to navigate, no mouse
+
+
