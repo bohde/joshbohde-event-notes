@@ -14,3 +14,4 @@ PyCon 2012
    putting_python_in_postgresql
    pandas
    lightning_talks
+   david_beazley_keynote
