@@ -17,3 +17,5 @@ PyCon 2012
    david_beazley_keynote
    why_pypy_by_example
    flexing_sqlalchemy
+   hand_coded_applications
+   advanced_celery
