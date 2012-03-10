@@ -12,4 +12,4 @@ PyCon 2012
    stop_writing_classes
    dismantling_jinja
    putting_python_in_postgresql
-
+   pandas
