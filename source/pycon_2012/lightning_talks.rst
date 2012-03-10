@@ -62,4 +62,6 @@ Python on IBooks
   * Luke Gotzling
   * Can run interpreter in an ebook
   * Embed an interpreter in javascript in an html widget
-  * 
+  * 4.8 mg overhead
+  * Runs on vanilla ipads
+
