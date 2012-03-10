@@ -13,3 +13,4 @@ PyCon 2012
    dismantling_jinja
    putting_python_in_postgresql
    pandas
+   lightning_talks
