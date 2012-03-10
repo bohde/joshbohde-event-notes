@@ -15,3 +15,4 @@ PyCon 2012
    pandas
    lightning_talks
    david_beazley_keynote
+   why_pypy_by_example
