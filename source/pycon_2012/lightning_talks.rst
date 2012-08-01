@@ -21,7 +21,7 @@ Numba
   * High bandwidth communication to llvm
   * Python for high level, LLVM for low level
   * DSLs based upon these
-  * https://github.com/ContinuumIO/numba
+  * https://github.com/numba/numba
 
 I has a money
 -------------
